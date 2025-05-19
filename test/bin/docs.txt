@@ -1,0 +1,1 @@
+In this bin folder, the test executables must be generated

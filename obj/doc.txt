@@ -1,0 +1,1 @@
+In this bin folder, the objects (files with extension .o) must be generated
