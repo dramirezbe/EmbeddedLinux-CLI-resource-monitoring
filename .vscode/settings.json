@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "*.py": "python",
+        "stdlib.h": "c",
+        "ncurses.h": "c",
+        "tui.h": "c",
+        "unistd.h": "c"
+    }
+}

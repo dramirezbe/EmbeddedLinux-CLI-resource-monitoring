@@ -21,7 +21,7 @@ resource_mon: \
     $(OBJDIR)/resource_mon.o \
     $(OBJDIR)/tui.o \
     | $(BINDIR)
-	$(CC) $(CFLAGS) -o $(BINDIR)/$@ $^
+	$(CC) $(CFLAGS) -o $(BINDIR)/$@ $^  -lncurses -lm
 
 # ----------------------------------------------------------------
 #   Tests

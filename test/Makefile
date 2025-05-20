@@ -18,10 +18,10 @@ tests: | $(BINDIR)
 	$(MAKE) -C $(SRCDIR) all 
 	
 	$(MAKE) -C ../src all
-	
-	$(CC) $(CFLAGS) -o $(BINDIR)/cpuinfo_test $(OBJDIR)/cpuinfo_test.o $(OBJDIR)/cpuinfo_manip.o
-	$(CC) $(CFLAGS) -o $(BINDIR)/meminfo_test  $(OBJDIR)/meminfo_test.o  $(OBJDIR)/meminfo_manip.o
-	$(CC) $(CFLAGS) -o $(BINDIR)/tui_test      $(OBJDIR)/tui_test.o      $(OBJDIR)/tui.o
+	 
+	$(CC) $(CFLAGS) -o $(BINDIR)/cpuinfo_test $(OBJDIR)/cpuinfo_test.o $(OBJDIR)/cpuinfo_manip.o  -lncurses -lm
+	$(CC) $(CFLAGS) -o $(BINDIR)/meminfo_test  $(OBJDIR)/meminfo_test.o  $(OBJDIR)/meminfo_manip.o  -lncurses -lm
+	$(CC) $(CFLAGS) -o $(BINDIR)/tui_test      $(OBJDIR)/tui_test.o      $(OBJDIR)/tui.o  -lncurses -lm
 
 clean:
 	@rm -f $(BINDIR)/*

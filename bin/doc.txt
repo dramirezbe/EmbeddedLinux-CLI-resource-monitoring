@@ -1,1 +1,0 @@
-In this bin folder, the executables must be generated

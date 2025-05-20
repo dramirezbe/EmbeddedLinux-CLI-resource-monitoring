@@ -16,7 +16,7 @@ OBJS    := $(SRCS:%.c=$(OBJDIR)/%.o)
 all: $(OBJS)
 
 $(OBJDIR)/%.o: %.c | $(OBJDIR)
-	$(CC) $(CFLAGS) -c $< -o $@
+	$(CC) $(CFLAGS) -c $< -o $@  -lncurses -lm
 
 $(OBJDIR):
 	mkdir -p $@

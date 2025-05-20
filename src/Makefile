@@ -18,7 +18,7 @@ all: $(OBJS)
 
 # Generic compilation rule
 $(OBJDIR)/%.o: %.c | $(OBJDIR)
-	$(CC) $(CFLAGS) -c $< -o $@
+	$(CC) $(CFLAGS) -c $< -o $@ -lncurses -lm
 
 # Create obj/ if it doesn't exist
 $(OBJDIR):
