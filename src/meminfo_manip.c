@@ -1,3 +1,17 @@
+/**
+ * @file meminfo_manip.c
+ * @brief Implementation of the memory information functions.
+ *
+ * This file reads memory data from /proc/meminfo and calculates
+ * the total and used percentages of physical and swap memory.
+ * It provides the implementation of the function declared in meminfo_manip.h.
+ *
+ * @author 
+ * Alex
+ * @version 1.1
+ * @date 2025
+ *
+ */
 #include "meminfo_manip.h"
 #include <stdio.h>
 #include <string.h>
