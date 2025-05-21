@@ -26,7 +26,7 @@ int main() {
     assert(info != NULL);
     assert(strlen(info) > 0); 
     assert(strstr(info, "MB") != NULL);
-    assert(strstr(info, "Usage") != NULL || strstr(info, "Uso") != NULL); // Check for "Usage"
+    assert(strstr(info, "Usage") != NULL); // Check for "Usage"
 
     printf("All tests passed.\n");
 
