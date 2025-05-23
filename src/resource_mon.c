@@ -8,7 +8,7 @@
 #include "meminfo_manip.h"
 #include "tui.h"
 
-int main(int argc, char *argv[]) {
+int main() {
 
     ui_init();
     ui_set_nodelay(true);

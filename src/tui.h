@@ -34,7 +34,7 @@ void ui_cleanup(void);
 void ui_clear(void);
 void ui_refresh(void);
 void ui_set_nodelay(bool enabled);
-int ui_getch(void);
+int ui_exit(void);
 void ui_get_dims(int *rows, int *cols);
 
 /* Coordinate system helper functions */
