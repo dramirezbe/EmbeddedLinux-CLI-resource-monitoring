@@ -81,3 +81,23 @@ The test output should display for three seconds a format interface.
 ### Expected Result:
 
 When the test runs successfully, it prints detailed pass/fail status for each coordinate test and displays a visual test showing text drawn at various terminal positions for manual verification.
+
+
+
+**Test File: `cpuinfo_test.c`**
+
+Comprehensive unit tests for the CPU monitoring functionality, including:
+
+1. **CPU Information Tests**:
+   - Validates proper parsing of `/proc/cpuinfo`
+   - Verifies correct identification of:
+     - CPU model name
+     - Physical core count
+     - Logical thread count
+   - Ensures logical consistency (threads ≥ cores)
+
+2. **CPU Usage Tests**:
+   - Validates statistics collection from `/proc/stat`
+   - Tests calculation of usage percentages
+   - Verifies values stay within valid range (0-100%)
+   - Includes time-delta calculation tests
