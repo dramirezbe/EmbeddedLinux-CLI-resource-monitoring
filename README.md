@@ -1,7 +1,16 @@
 # EmbeddedLinux-CLI-resource-monitoring
 
-This is project consist in a system resource minotoring interface in Command Line Interface of Linux machines.
+This project consist in a system resource minotoring interface in Command Line Interface of Linux machines.
 
+# Authors
+
+- Leandro Zapata Marin lezapatam@unal.edu.co  CC:1002653862
+
+- Yonnier Alexander Muñoz Salazar yomunozs@unal.edu.co
+
+- Carlos Andres Cardona Cardona cacardonaca@unal.edu.co  Cc: 1053796695
+
+- David Ramírez Betancourth dramirezbe@unal.edu.co CC: 1002636667
 
 # Install
 
